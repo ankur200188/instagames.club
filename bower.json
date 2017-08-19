@@ -1,0 +1,27 @@
+{
+  "name": "instagames.club",
+  "description": "Board and Card games online with Single and Multiplayer mode",
+  "main": "index.js",
+  "authors": [
+    "Ankur Goel <ankur200188@gmail.com>",
+    "Rahul Sharma <rahulshma@gmail.com>",
+    "Varun Sharma <varunsharma34@rocketmail.com>
+  ],
+  "license": "ISC",
+  "keywords": [
+    "games",
+    "online",
+    "board",
+    "games",
+    "card",
+    "games"
+  ],
+  "homepage": "https://github.com/ankur200188/instagames.club",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
