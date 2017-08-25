@@ -1,0 +1,63 @@
+Understand the game -
+
+The object of the game is to be the first player to reach the end by moving across the board from square one to the final square. You move left to right across first row, then move up to the second row and move right to left, and so on. Follow the numbers on the board to see how to move forward. For example, if you rolled a five and you were on square number 11, then your game piece would move to square number 16.
+
+How many players can play?
+TBD
+
+Decide who goes first -
+Each player should roll one die to see who gets the highest number. Whoever rolls the highest number gets to take the first turn. After the first player takes a turn, the next person will take a turn. Play continues...
+If two or more people roll the same number, and it is the highest number rolled, each of those people roll the die an additional time to see who gets to go first.
+
+Roll the dice and move - 
+To take your turn, roll the die again and your game piece will gets move forward the number of spaces that you rolled. For example, if you roll a two, your game piece gets move forward to square two. On your next turn, if you roll a five, your game piece gets move forward five squares, ending up on square seven.
+
+Climb up ladders -
+The ladders on the game board allow you to move upwards and get ahead faster. If your game piece land exactly on a square that shows an image of the bottom of a ladder, then your game piece will move all the way up to the square at the top of the ladder. If your game piece land at the top of a ladder or somewhere in the middle of a ladder, it will just stay put.
+
+Slide down snakes -
+Snakes move you back on the board because your game piece gets slide down. If you land exactly at the top of a snake, your game piece get slide down all the way to the square at the bottom of the snake. If you land on a square that is in the middle or at the bottom of a snake, your game piece will just stay put.
+
+Take an extra turn if you roll a six -
+If you roll a six, then you get an extra turn. First, your piece gets move forward six squares and then roll the die again. If you land on any snakes or ladders, follow the instructions above to move up or down and then roll again to take your extra turn. As long as you keep rolling sixes, you can keep moving.
+
+Some other strategies -
+We can add some lifelines for players (e.g. players can earn 1 lifeline let say by winning 5 games or more).
+
+
+---------------------------------------------
+
+
+Game Structure -
+
+- User will see snake&ladder board overlaid by a popup box which contains two buttons -
+	- Single Player Button
+	- Multi player Button
+  
+  User can choose a play type and popup gets hide and user will enter the game.
+
+- User Options -
+  - There will be a roll button. When user clicks this button, a rolling 3D dice will appear on the board which will roll for 2-3seconds (any time span) and gets a random number between 1-6.
+  - User will have option to play/pause game or save incomplete game (Later approach).
+  - User will have limited time span for each move. Time lapse, Move lapse.
+  - User will earn/loss points w.r.t. winning/losing (Later approach).
+
+- We can add signIn/signUp where user's records will be maintained and user can continue playing saved games and start games with saved contacts (Later approach).
+
+- In Single Player Game - User will play against computer.
+
+- In Multiplayer Game - User will play against a person.
+
+    - Multiplayer Game Option -
+	- User can share active game link via any channel.
+	- User can invite a person to game via email.
+	- User can play game with any other active user (could be random user).
+	- User's can schedule a game and user can opt for reminders for the same.
+
+
+---------------------------------------------
+
+
+Adding a little strategy -
+
+We can have each player play with two game pieces, each the same color so no one gets confused. When you roll the die, you can move one of your two pieces by that amount. You need to have both of your pieces reach the last square in order to win.
